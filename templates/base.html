@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="/blog">Blog Home Page</a> | 
+        <a href="/newpost">Add a New Entry</a>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>

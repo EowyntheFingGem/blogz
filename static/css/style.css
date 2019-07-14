@@ -1,0 +1,12 @@
+body {
+	font-family: 'DM Serif Text', serif;
+}
+
+h1{
+	text-align: center;
+    }
+
+.error{
+    color: red;
+    font-weight: bold;
+    }
